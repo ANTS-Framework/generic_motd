@@ -1,0 +1,6 @@
+---
+    
+    generic_motd__template: 'motd.j2'
+    generic_motd__support_name: 'Support Unit'
+    generic_motd__support_tel: 'to be replaced'
+    generic_motd__support_mail: 'to.be@replaced.ch'

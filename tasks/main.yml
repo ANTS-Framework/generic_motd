@@ -1,0 +1,9 @@
+---
+  - name: Setting Message of the day
+    template:
+        src: "{{ generic_motd__template }}"
+        dest: "/etc/motd"
+        owner: root
+        group: wheel
+        mode: 0644
+
