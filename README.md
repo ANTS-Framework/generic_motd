@@ -1,6 +1,8 @@
 generic motd
 =========
 
+[![Build Status](https://travis-ci.org/ANTS-Framework/generic_motd.svg?branch=master)](https://travis-ci.org/ANTS-Framework/generic_motd)
+
 Manage the message of the day file to display the following message:
 
 ```
