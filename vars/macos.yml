@@ -1,0 +1,4 @@
+---
+
+    generic_motd__owner: 'root'
+    generic_motd__group: 'wheel'

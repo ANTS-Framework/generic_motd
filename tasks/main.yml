@@ -1,9 +1,17 @@
 ---
+  - name: Include variables for macos
+    include_vars: macos.yml
+    when: ansible_system == "Darwin"
+
+  - name: Include variables for linux
+    include_vars: linux.yml
+    when: ansible_system == "Linux"
+
   - name: Setting Message of the day
     template:
         src: "{{ generic_motd__template }}"
         dest: "/etc/motd"
-        owner: root
-        group: wheel
+        owner: "{{ generic_motd__owner }}"
+        group: "{{ generic_motd__group }}"
         mode: 0644
 
